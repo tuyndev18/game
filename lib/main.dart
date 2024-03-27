@@ -1,7 +1,7 @@
 import 'dart:js';
 
 import 'package:flame/game.dart';
-import 'package:flame_performance/scenes_game.dart';
+import 'package:flame_performance/game.dart';
 import 'package:flutter/material.dart';
 
 void main() {

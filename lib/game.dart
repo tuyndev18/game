@@ -51,8 +51,8 @@ class MyWorld extends World with HasGameRef<GameCtrl> {
     add(SpriteComponent(
         sprite: Sprite(game.images.fromCache("bg_main.png")),
         size: Vector2(1280, 720)));
-    // add(TaskInfoBar(
-    //     size: Vector2(180, 200), position: Vector2(1280 - 200, 10)));
+    add(TaskInfoBar(
+        size: Vector2(180, 200), position: Vector2(1280 - 200, 10)));
 
     add(MenuSelectBar(
         size: Vector2(1000, 50),

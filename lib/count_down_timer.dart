@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flame/components.dart' hide Timer;
-import 'package:flame_performance/scenes_game.dart';
+import 'package:flame_performance/game.dart';
 import 'package:flutter/material.dart';
 
 class CountdownTimer extends PositionComponent with HasGameRef<GameCtrl> {

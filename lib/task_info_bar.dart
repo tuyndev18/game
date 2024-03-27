@@ -1,5 +1,5 @@
 import 'package:flame/components.dart';
-import 'package:flame_performance/scenes_game.dart';
+import 'package:flame_performance/game.dart';
 import 'package:flutter/material.dart';
 
 import 'count_down_timer.dart';
